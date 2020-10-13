@@ -261,7 +261,7 @@ class ApiServiceService {
         this.http = http;
     }
     getdetail() {
-        return this.http.get('https://jsonplaceholder.typicode.com/todos/9000');
+        return this.http.get('https://jsonplaceholder.typicode.com/todos');
     }
 }
 ApiServiceService.ɵfac = function ApiServiceService_Factory(t) { return new (t || ApiServiceService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"])); };

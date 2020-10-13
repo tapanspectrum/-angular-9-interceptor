@@ -498,7 +498,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(ApiServiceService, [{
         key: "getdetail",
         value: function getdetail() {
-          return this.http.get('https://jsonplaceholder.typicode.com/todos/9000');
+          return this.http.get('https://jsonplaceholder.typicode.com/todos');
         }
       }]);
 
